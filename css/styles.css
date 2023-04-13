@@ -259,12 +259,20 @@ img {
   |============================
 */
 .hero {
-    background-color: var(--color-grey);
+    max-width: 1440px;
+    /* background-color: rgba(46, 47, 66, 0.7); */
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/studio/hero/people-office-hero.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-container {
     padding-top: 188px;
     padding-bottom: 188px;
 }
-
-.hero-container {}
 
 .hero-heading {
     color: var(--color-white);
